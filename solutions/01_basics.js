@@ -1,5 +1,4 @@
-function hello(name) {
-  var nounToGreet = name || "W"
+function hello() {
   return "Hello World!";
 }
 
