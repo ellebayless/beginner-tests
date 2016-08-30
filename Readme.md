@@ -4,9 +4,11 @@ To use this test suite first fork the repository and then clone it down onto you
 
 Once you have done that make sure to ```cd``` into the directory and run ```npm install```
 
-After that type ```mocha``` and you should see 1 failing test and many more noted as pending
+After that type ```mocha``` and you should see 1 failing test (you may have to scroll up on your terminal window) and many
 
-Next, assuming you go in order, open the file inside of the workspace directory that is labeled ```01_basics.js```
+more noted as pending. Next, assuming you go in order, open the file inside of the workspace directory that is labeled
+
+```01_basics.js```
 
 and make that test pass by changing the function body. Do not alter the exports at the bottom of the files or
 
