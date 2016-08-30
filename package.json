@@ -1,0 +1,27 @@
+{
+  "name": "beginner-test",
+  "version": "1.0.0",
+  "description": "To use this test suite first fork the repository and then clone it down onto your local machine.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidBayless/beginner-tests.git"
+  },
+  "author": "David Bayless",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidBayless/beginner-tests/issues"
+  },
+  "homepage": "https://github.com/DavidBayless/beginner-tests#readme"
+}
