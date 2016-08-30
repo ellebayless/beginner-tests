@@ -9,9 +9,7 @@ After that type ```mocha``` and you should see 1 failing test (you may have to s
 more noted as pending. Next, assuming you go in order, open the file inside of the workspace directory that is labeled
 
 ```01_basics.js``` and make that test pass by changing the function body. Do not alter the exports at the bottom of the files 
-or
-
-your tests will not work. Once you have passed the first test, go down the files and delete the 'x's in front of the
+or your tests will not work. Once you have passed the first test, go down the files and delete the 'x's in front of the
 
 'it's in order and then repeat the process. If you get stuck do not fret! In the solutions folder are my implementations
 
