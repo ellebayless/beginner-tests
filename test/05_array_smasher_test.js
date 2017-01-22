@@ -13,7 +13,7 @@ describe("arraySmasher", function() {
     expect(arraySmasher([[1,2,3]])).to.deep.equal([1,2,3]);
   });
 
-  xit("should return [1,2,3] when given [[1,2,3]]", function() {
+  xit("should return [1,2,3,a,b,c] when given [[1,2,3], [a,b,c]]", function() {
     expect(arraySmasher([[1,2,3], ['a','b','c']])).to.deep.equal([1,2,3,'a','b','c']);
   });
 

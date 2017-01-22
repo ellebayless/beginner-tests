@@ -1,4 +1,4 @@
-function lithp(str) {
+function changeSToTh(str) {
   var strArr = str.toLowerCase().split('');
   for (var i = 0; i < strArr.length; i++) {
     if (strArr[i] === 's') {
@@ -8,4 +8,4 @@ function lithp(str) {
   return strArr.join('');
 }
 
-module.exports = lithp;
+module.exports = changeSToTh;

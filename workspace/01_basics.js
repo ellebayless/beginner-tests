@@ -1,21 +1,21 @@
 function hello() {
   // Your code here! You may need to add in parameters in the parenthesis above!
-  
+  return("Hello World!");
 }
 
-function sum() {
+function sum(num1, num2) {
   // Your code here! You may need to add in parameters in the parenthesis above!
-
+  return(num1 + num2);
 }
 
-function billymaysify() {
+function billymaysify(str) {
   // Your code here! You may need to add in parameters in the parenthesis above!
-
+  return str.toUpperCase() + '!!!';
 }
 
-function concat() {
+function concat(arr, arr2) {
   // Your code here! You may need to add in parameters in the parenthesis above!
-
+  return(arr.concat(arr2));
 }
 
 exports.hello = hello;
